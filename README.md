@@ -9,7 +9,7 @@ unofficial wrapper for smarty streets api
     console.log(res);
   });
 
-  smartystreets.batch_validate(['array of address objects'], (err, res) => {
+  smartystreets.validate_address('full address as string here', (err, res) => {
     console.log(res);
   });
 ```
